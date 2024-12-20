@@ -1,0 +1,173 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.hero-section {
+  background: #245077;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+  /* border: 1px solid rgb(61, 60, 60); */
+}
+.logo {
+  height: 120px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin-right: 100px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.nav-links a:hover{
+    color: rgb(86, 82, 82);
+}
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background: #faf9f4;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  /* border: 2px solid red; */
+  margin-top: 30px;
+  
+}
+.btn11{
+    margin-top: 50px;
+}
+.cta-button:hover{
+    background-color: none;
+  color: #008000;
+
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.cards,
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card,
+.pricing-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 5px 5px 5px gray;
+  margin-left: 20px;
+  text-align: center;
+  text-align: justify;
+  gap: 20px;
+}
+.card h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.card p {
+  padding-top: 20px;
+}
+.card,
+.p1 {
+  margin-top: 30px;
+}
+.cardimg{
+    margin-top: 30px;
+}
+
+.btn1 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #008000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.btn2 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #008000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: #06c106;
+}
+.btn1:hover {
+  background-color: #06c106;
+}
+
+/* Footer */
+.footer {
+  background: #141e0d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
